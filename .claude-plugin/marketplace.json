@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "channel-kit",
+  "description": "유튜브 채널 에피소드마다 무료로 나눠 드리는 Claude Code 플러그인. 영상에서 보여 드린 방법을 그대로 설치해서 쓸 수 있습니다.",
+  "owner": {
+    "name": "juhyunchoi-mech"
+  },
+  "plugins": [
+    {
+      "name": "rule-meter",
+      "source": "./plugins/rule-meter",
+      "description": "EP01. CLAUDE.md 에 적어 둔 금지 규칙을 Claude 가 실제로 지키는지, 내 대화 기록에서 주 단위로 셉니다.",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "edit-teardown",
+      "source": "./plugins/edit-teardown",
+      "description": "EP04. 유튜버의 편집을 증거 장부로 뜯어보는 방법: 질문 목록, 관찰/계산/추정/모름 구분, 범위 있는 '없다', 내 영상으로 먼저 검증한 측정 도구.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "rule-meter",
+  "version": "0.1.0",
+  "description": "Count, week by week, how often Claude's final answers still contain a string your CLAUDE.md bans, from your own local Claude Code transcripts.",
+  "author": {
+    "name": "juhyunchoi-mech"
+  },
+  "keywords": ["claude-md", "rules", "measurement", "transcripts"]
+}

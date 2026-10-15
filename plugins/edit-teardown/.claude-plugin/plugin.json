@@ -1,0 +1,9 @@
+{
+  "name": "edit-teardown",
+  "version": "0.1.0",
+  "description": "Tear down a YouTube creator's editing with an evidence ledger: a question checklist, observed/derived/inferred/unknown findings, bounded negatives, rulers calibrated on your own video first, and a form checker for the ledger.",
+  "author": {
+    "name": "juhyunchoi-mech"
+  },
+  "keywords": ["youtube", "video-editing", "teardown", "benchmark", "reverse-engineering"]
+}
